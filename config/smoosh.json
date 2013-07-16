@@ -2,7 +2,7 @@
   "JAVASCRIPT": {
     "DIST_DIR": "./"
     , "qwery": [
-        "./src/copyright.js"
+        "./src/ebay.js"
       , "./src/qwery.js"
     ]
     , "mobile/qwery-mobile": [

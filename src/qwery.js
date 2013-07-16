@@ -124,7 +124,7 @@
   }
 
   function clean(s) {
-    return cleanCache.g(s) || cleanCache.s(s, s.replace(specialChars, '\\$1'))
+    return cleanCache.g(s) || cleanCache.s(s, s.replaceEbay(specialChars, '\\$1'))
   }
 
   function checkAttr(qualify, actual, val) {
@@ -327,7 +327,7 @@
     // no native selector support
   , selectNonNative = function (selector, root) {
       var result = [], items, m, i, l, r, ss
-      selector = selector.replace(normalizr, '$1')
+      selector = selector.replaceEbay(normalizr, '$1')
       if (m = selector.match(tagAndOrClass)) {
         r = classRegex(m[2])
         items = root[byTag](m[1] || '*')
