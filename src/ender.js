@@ -2,7 +2,7 @@
   var q = function () {
     var r
     try {
-      r = require('qwery')
+      r = require('ebay-qwery')
     } catch (ex) {
       r = require('qwery-mobile')
     } finally {
@@ -23,7 +23,7 @@
         return /^\s*</.test(s) ? $.create(s, r) : q(s, r)
       }
       try {
-        b = require('bonzo')
+        b = require('ebay-bonzo')
         return function (s, r) {
           return /^\s*</.test(s) ? b.create(s, r) : q(s, r)
         }

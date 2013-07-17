@@ -1,7 +1,7 @@
 {
     "name": "ebay-qwery"
   , "description": "Modified version of Qwery which is a blazing fast CSS3 query selector engine"
-  , "version": "3.4.1"
+  , "version": "3.4.1-3"
   , "homepage": "https://github.com/humingchun/qwery"
   , "author": "Michael Hu <humingchun@gmail.com> (http://michaellearnstocode.com)"
   , "contributors": [
