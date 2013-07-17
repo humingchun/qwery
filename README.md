@@ -1,6 +1,6 @@
 eBay Qwery
 ==========
-Modified version of [Qwery](https://github.com/ded/qwery "A compact, blazing fast CSS selector engine") which could be embedded in eBay listing page.
+Modified version of [Qwery](https://github.com/ded/qwery "A compact, blazing fast CSS selector engine") in order to be embedded in eBay listing page.
 
 Qwery - The Tiny Selector Engine
 -----
