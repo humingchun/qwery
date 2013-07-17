@@ -1,3 +1,7 @@
+eBay Qwery
+==========
+Modified version of [Qwery](https://github.com/ded/qwery "A compact, blazing fast CSS selector engine") which could be embedded in eBay listing page.
+
 Qwery - The Tiny Selector Engine
 -----
 Qwery is a small *blazing fast* query selector engine allowing you to select elements with CSS1|2|3 queries

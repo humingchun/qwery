@@ -1,20 +1,21 @@
 {
-    "name": "qwery"
-  , "description": "blazing fast CSS3 query selector engine"
+    "name": "ebay-qwery"
+  , "description": "Modified version of Qwery which is a blazing fast CSS3 query selector engine"
   , "version": "3.4.1"
-  , "homepage": "https://github.com/ded/qwery"
-  , "author": "Dustin Diaz <dustin@dustindiaz.com> (http://dustindiaz.com)"
+  , "homepage": "https://github.com/humingchun/qwery"
+  , "author": "Michael Hu <humingchun@gmail.com> (http://michaellearnstocode.com)"
   , "contributors": [
-        "Jacob Thornton <> (https://github.com/fat)"
+        "Dustin Diaz <dustin@dustindiaz.com> (http://dustindiaz.com)"
+      , "Jacob Thornton <> (https://github.com/fat)"
       , "Rod Vagg <> (https://github.com/rvagg)"
       , "Andrew McCollum <> (https://github.com/amccollum)"
     ]
   , "main": "./qwery.js"
-  , "keywords": ["ender", "query", "css", "selector engine"]
+  , "keywords": ["ebay", "ender", "query", "css", "selector engine"]
   , "ender": "./src/ender.js"
   , "repository": {
         "type": "git"
-      , "url": "https://github.com/ded/qwery.git"
+      , "url": "https://github.com/humingchun/qwery.git"
     }
   , "devDependencies": {
         "sink-test": ">= 1.0.1"
